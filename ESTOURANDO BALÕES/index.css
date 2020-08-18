@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(50deg,#ac4a4a, rgb(104, 163, 211)) no-repeat;;
+    height: 650px;
+    width: 400px;
+}
+.container{
+    background-color: rgb(231, 223, 221);                
+    width: 400px;
+    height: 400px;
+    border-radius: 30%;
+  
+    position: relative;
+    top: 100px;
+    left: 480px;
+    
+    
+}
+.conteudo {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.botao {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4 s ease-out;
+    border-radius: 50%;
+}
+.botao#play {
+    background-color: rgb(231, 223, 221);     ;
+}
+.icone {
+    
+    padding: 2px;
+    position: relative;
+    left: 100px;
+
+}
+.botao:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow:  4px 30px  16px 0px rgba(50,50,50, 0.40);
+}

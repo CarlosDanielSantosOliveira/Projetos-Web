@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="jogo.css">
+
+		<title>Estourando balões</title>
+
+		<script src="jogo.js"></script>
+
+	</head>
+
+	<body onload="iniciaJogo()">
+		<div class="jogo" style="float:left; width:auto; height:500px; background: rgb(210, 213, 216); border: solid 1px #A2A2A2; margin-right: 5px;">
+			<table border="0">
+				<tr>
+					<td>
+						<img src="imagens/balao_azul_grande.png" />
+					</td>
+					<td>
+						<span id="baloes_inteiros" style="font-size: 40px;"></span>
+					</td>
+				</tr>
+			</table>
+
+			<br />
+			<table border="0">
+				<tr>
+					<td>
+						<img src="imagens/balao_azul_grande_estourado.png" />
+					</td>
+					<td>
+						<span id="baloes_estourados" style="font-size: 40px;"></span>
+					</td>
+				</tr>
+			</table>
+
+			<br/>
+			<table border="0" style="width: 140px; height: 132px;">
+				<tr>
+					<td style="background: url('imagens/cronometro.png'); text-align:center">
+						<span id="cronometro" style="color: red; font-size: 30px;"></span>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+
+		<div class="jogo" id="cenario" style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom;"></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
