@@ -1,8 +1,8 @@
 body {
-    background: linear-gradient(50deg,#ac4a4a, rgb(104, 163, 211)) no-repeat;;
-    height: 650px;
-    width: 400px;
+    background: linear-gradient(50deg,#ac4a4a, rgb(104, 163, 211)) no-repeat center center fixed;;
+    background-size: 100%;
 }
+
 .container{
     background-color: rgb(231, 223, 221);                
     width: 400px;
@@ -10,8 +10,8 @@ body {
     border-radius: 30%;
   
     position: relative;
-    top: 100px;
-    left: 480px;
+    top: 200px;
+     
     
     
 }
