@@ -24,7 +24,7 @@ function iniciaJogo(){
 	document.getElementById('cronometro').innerHTML = tempo_segundos;
 
 	// quantidade de balões
-	var qtde_baloes = prompt('Digite a quantidade de balões que deseja estourar');
+	var qtde_baloes = prompt('Digite de 0 a 90, a quantidade de balões que deseja estourar');
 	var baloestotal = parseInt;
 	var baloestotal = qtde_baloes;
 	
@@ -35,6 +35,7 @@ function iniciaJogo(){
 	document.getElementById('baloes_estourados').innerHTML = 0;
 
 	contagem_tempo(tempo_segundos + 1)
+	
 	
 }
 
