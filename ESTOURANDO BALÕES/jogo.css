@@ -1,9 +1,10 @@
 body {
     background: linear-gradient(50deg,#a7e93d, rgb(104, 163, 211)) no-repeat center center fixed;;
-   
+   background-size: 100%;
 }
 .jogo {
     position: relative;
-    top: 70px;
-    left: 300px;
+    top: 140px;
+    left: 470px;
 }
+ 
