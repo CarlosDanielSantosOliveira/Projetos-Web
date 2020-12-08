@@ -1,0 +1,175 @@
+/*
+*
+* @autor Carlos Daniel
+*/
+
+/* =============== layout =================*/
+
+html, body, .capa{
+    height: 100%;
+
+
+
+
+}
+
+body {
+    
+    background: url('imagens/demi.jfif')no-repeat center center fixed,
+                url('imagens/ruido.png'),
+                linear-gradient(50deg,#810b0b, rgb(66, 37, 231));;
+    font-family: Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+    
+    
+}
+
+
+
+
+/* -- Barra de navegação -- */
+.img-logo {
+    height: 40px;
+    width:132px;
+    display: block; /* faz com que o span fique em formato de bloco */
+    background: url('imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+.navbar-inverse .navbar-nav> li>a, footer .nav a {
+    color: white;
+
+}
+.navbar-inverse .navbar-nav> li>a:hover  , footer .nav a:hover{
+    color: rgb(185, 99, 99);
+    background: none;
+}
+
+/* -- Imagem de capa -- */
+
+.capa {
+    border: 1px solid rgb(0, 0, 0);
+    display: table;
+    width: 100%;
+    
+}
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+/*====== botões ========*/
+.btn-custom {
+    color: rgb(255, 255, 255);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px; 
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+.btn-azul {
+    background: rgb(71, 68, 214);
+}
+
+.btn-azul:hover {
+    background-color: rgb(73, 52, 165);
+    color: rgb(253, 253, 253);
+}
+.btn-verde{
+    background: rgb(191, 107, 212);
+}
+.btn-verde:hover{
+    background: rgb(126, 55, 133);
+    color: rgb(253, 253, 253);
+}
+/*====== Seção Serviço ========*/
+
+#servicos {
+    background: linear-gradient(50deg,#aa2424, rgb(66, 37, 231));;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns {
+    padding: 10px 0px 10px 0px;
+}
+/* ==== Rodape ==== */
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:black;
+
+}
+.item-rede-social {
+    float: right;
+}
+
+.rotacionar {
+ 
+  transform: rotate(390deg);
+   -ms-transform: rotate(390deg);
+   -webkit-transform: rotate(390deg);
+   padding-left: 80px
+    
+}
+
+/* ==== Rodape ==== */
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+/* ============ Tipografia ============== */
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -5px;
+    margin-bottom: 50px;
+
+}
+.h2 { font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;;
+}
+.h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+
+}
+#rodape h4 {
+    color: rgb(163, 66, 66);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#servicos h2, #servicos h3 {
+    color: rgb(184, 68, 68);
+
+}
+#recursos h3, #recursos h2 {
+    color:white;
+
+}
