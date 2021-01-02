@@ -1,0 +1,63 @@
+:root {
+    --primary-color: rgb(51, 46, 75);
+    --second-color:  rgb(76, 0, 255);
+   }
+   body {
+       margin: 0;
+       padding:0;
+       background: var(--primary-color);
+       border-radius: 50px;
+   }
+   .container {
+       max-width: 640px;
+       margin: 20px auto;
+       background: #ffff;
+       padding: 20px;
+       border-radius: 25px;
+   }
+ 
+   .bad {
+       background: rgb(228, 90, 48);
+   
+   }
+   .relogio {
+       font-size: 3em;
+   }
+
+   .pausado {
+       color: red;
+   }
+
+   .iniciar{
+       background-image: url("icons-main/icons-main/icons/play-circle.svg");
+       width: 100px;
+       height: 100px;
+       background-size: cover;
+       border-radius: 50px;
+       box-shadow: aquamarine;
+       background-color: white;;
+       
+   }
+
+   .pausar{
+        background-image: url("icons-main/icons-main/icons/pause-circle.svg") ;
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        border-radius: 50px;
+        background-color: white;;
+   }
+  
+   .zerar{
+        background-image: url("icons-main/icons-main/icons/arrow-repeat.svg") ;
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        border-color: transparent;
+        border-radius: 50px;
+        animation: bounce 1s;
+        background-color: white;;
+   }
+   .zerar:hover{
+    animation: bounce 1s;
+   }
