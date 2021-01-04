@@ -1,0 +1,111 @@
+:root {
+    --primary-color: rgb(51, 46, 75);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    border-radius: 50px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 640px;
+    margin: 20px auto;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+li {
+    list-style-type: decimal;
+}
+
+.apagar {
+    background-color: rgb(206, 134, 134);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("img/lixo.png");
+    background-size: cover;
+}
+
+.btn-tarefa {
+    background-color: rgb(103, 187, 155);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-image: url("img/add.png");
+    background-size: cover;
+    margin-top: 10px;
+    color: rgb(103, 187, 155);
+}
+
+li {
+    font-size: 20px;
+}
+
+.input-tarefa {
+    width: 200px;
+    height: 40px;
+    border-bottom: aqua;
+}
+
+.container2 {
+    max-width: 640px;
+    margin: 20px auto;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.bad {
+    background: rgb(228, 90, 48);
+}
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
+}
+
+.iniciar {
+    background-image: url("img/play-circle.svg");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: aquamarine;
+    background-color: white;
+    ;
+}
+
+.pausar {
+    background-image: url("img/pause-circle.svg");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 50px;
+    background-color: white;
+    ;
+}
+
+.zerar {
+    background-image: url("img/arrow-repeat.svg");
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-color: transparent;
+    border-radius: 50px;
+    animation: bounce 1s;
+    background-color: white;
+    ;
+}
+
+.zerar:hover {
+    animation: bounce 1s;
+}
